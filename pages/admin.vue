@@ -1,6 +1,9 @@
 <template>
   <amplify-authenticator>
-    <v-btn depressed color="primary" to="/writeCuisine/new"> CREATE </v-btn>
+    <v-btn depressed color="" to="/writeCuisine/new">
+      <v-icon>{{ icon }}</v-icon
+      >CREATE
+    </v-btn>
     <v-layout row wrap>
       <PostCard v-for="post in posts" :key="post.id" :post="post" />
     </v-layout>
@@ -21,6 +24,7 @@ export default {
   data() {
     return {
       posts: [],
+      icon: 'mdi-pencil',
     }
   },
   created() {

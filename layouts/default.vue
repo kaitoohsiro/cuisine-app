@@ -26,7 +26,9 @@
     </v-navigation-drawer>
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-icon>{{ items[0].icon }}</v-icon>
       <v-toolbar-title v-text="title" />
+      <v-icon>{{ items[0].icon }}</v-icon>
     </v-app-bar>
     <v-main>
       <v-container>
@@ -58,7 +60,7 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-apps',
+          icon: 'mdi-chef-hat',
           title: 'Welcome',
           to: '/',
         },
@@ -71,7 +73,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'みんなの料理アプリ',
+      title: 'みんなの料理',
     }
   },
 }

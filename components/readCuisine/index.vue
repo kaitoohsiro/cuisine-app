@@ -18,7 +18,7 @@
             </div>
           </v-card-title>
           <v-card-actions>
-            <v-btn flat color="red" :to="'/detailCuisine/' + post.id">
+            <v-btn flat color="" :to="'/detailCuisine/' + post.id">
               DETAIL
             </v-btn>
           </v-card-actions>

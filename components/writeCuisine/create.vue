@@ -200,6 +200,10 @@ export default {
 .cook {
   color: #e65100;
 }
+.img {
+  width: 300px;
+  height: 200px;
+}
 .custom-loader {
   animation: loader 1s infinite;
   display: flex;
