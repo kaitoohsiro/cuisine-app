@@ -22,7 +22,7 @@ export default {
         property: 'og:url',
         content: 'https://dev.d18pk3xlx7hz0o.amplifyapp.com/',
       },
-      { property: 'og:title', content: 'みんなで料理' },
+      { property: 'og:title', content: 'みんなの料理' },
       { property: 'og:description', content: 'みんなで料理を共有しよう！！' },
       {
         property: 'og:image',
