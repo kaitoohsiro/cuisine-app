@@ -11,7 +11,29 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'みんなで料理を共有しよう！！',
+      },
+      { name: 'twitter:site', content: '@Kaito14123925' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      {
+        property: 'og:url',
+        content: 'https://dev.d18pk3xlx7hz0o.amplifyapp.com/',
+      },
+      { property: 'og:title', content: 'みんなの料理' },
+      { property: 'og:description', content: 'みんなで料理を共有しよう！！' },
+      {
+        property: 'og:image',
+        content:
+          'https://cuisine133144-dev.s3-ap-northeast-1.amazonaws.com/public/cuisine/cook.png',
+      },
+      {
+        property: 'witter:image',
+        content:
+          'https://cuisine133144-dev.s3-ap-northeast-1.amazonaws.com/public/cuisine/cook.png',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
