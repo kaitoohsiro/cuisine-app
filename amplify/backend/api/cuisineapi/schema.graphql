@@ -1,0 +1,7 @@
+type Cuisine @model {
+  id: ID!
+  cuisine_title: String!
+  cuisine_image_url: String!
+  cooking_ingredient: String!
+  cooking_method: String!
+}

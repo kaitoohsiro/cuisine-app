@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-cuisineapp-dev-133144-authRole",
+            "UnauthRoleArn": "arn:aws:iam::110689615128:role/amplify-cuisineapp-dev-133144-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::110689615128:role/amplify-cuisineapp-dev-133144-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-cuisineapp-dev-133144-deployment",
+            "UnauthRoleName": "amplify-cuisineapp-dev-133144-unauthRole",
+            "StackName": "amplify-cuisineapp-dev-133144",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:110689615128:stack/amplify-cuisineapp-dev-133144/8e1760f0-69c6-11eb-b85e-06fa8596cf5a",
+            "AmplifyAppId": "d18pk3xlx7hz0o"
+        },
+        "categories": {
+            "auth": {
+                "cuisineapp1dff58eb": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d18pk3xlx7hz0o",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
