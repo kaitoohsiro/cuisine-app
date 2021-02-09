@@ -24,9 +24,7 @@
           <v-card-actions>
             <v-spacer />
             <DeleteCard :cardId="post.id" />
-            <v-btn flat color="primary" :to="'/writeCuisine/' + post.id">
-              EDIT
-            </v-btn>
+            <v-btn flat color="" :to="'/writeCuisine/' + post.id"> EDIT </v-btn>
           </v-card-actions>
         </v-card>
       </v-hover>
