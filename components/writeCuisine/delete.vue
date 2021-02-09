@@ -42,6 +42,7 @@ export default {
         variables: { input: deleteData },
       })
       this.dialog = false
+      window.location.href = '/admin/'
     },
   },
 }
