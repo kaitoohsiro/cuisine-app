@@ -3,7 +3,7 @@
     <article>
       <v-hover>
         <v-card slot-scope="{ hover }" :class="`elevation-${hover ? 12 : 2}`">
-          <a :href="'/detailCuisine/' + post.id">
+          <a>
             <v-img
               class="white--text"
               height="170px"
