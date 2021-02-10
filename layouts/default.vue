@@ -64,11 +64,6 @@ export default {
           title: 'Welcome',
           to: '/',
         },
-        {
-          icon: 'mdi-account-group',
-          title: 'Admin',
-          to: '/admin',
-        },
       ],
       miniVariant: false,
       right: true,
